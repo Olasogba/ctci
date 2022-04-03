@@ -1,0 +1,110 @@
+CORE DATA STRUCTURES, ALGORITHMS, AND CONCEPTS
+- DATA STRUCTURES
+  Linked Lists
+  Trees, tries and graphs
+  Statcks and queues
+  Heaps
+  Vector/ArrayLists
+  Hash Tables
+
+- ALGORITHMS
+  Breadth-first search
+  Depth-first search
+  Binary search
+  Merge sort
+  Quick sort
+
+- CONCEPTS
+  Bit manipulation
+  Memory (Stack vs Heap)
+  Recursion
+  Dynamic programming
+  Big O Time and Space
+
+
+-------------------------------------------------------------------------------
+
+PROBLEM SOLVING APPROACH
+ Listen
+  - Pay close attention
+
+ Example
+  - Draw an example that is specific, sufficiently large, and
+    not a special case
+
+ Brute force
+  - Get and state a brute force solution as soon as possible. Explain what
+    the time and space complexity is, and dive straight into optimization
+
+ Optimize
+  - Look for any unused information
+  - Use a fresh example
+  - Solve it "incorrectly"
+  - Make time vs space trade off
+  - Precompute information
+  - Use a hashtable
+  - Think about the best concievable runtime
+
+ Walkthrough
+  - Confirm solution in detail
+
+ Implement
+  - Implement and modularize. This is where you start coding
+
+ Test
+  - Small test cases
+
+-------------------------------------------------------------------------------
+
+OPTIMIZE AND SOLVE TECHNIQUES
+  - Look for BUD
+    - Bottleneck
+      - Identify the part of your algorithm that slows down the overall
+        runtime. e.g one work that slows down your algorithm, and a chunk
+        of work that is done repeatedly
+
+    - Identify unnecessary work that is being done
+    - Identify duplicated work
+  
+  - Do it yourself
+    - Imagine an actually physical context for the example and try to intuitively
+      solve it, then think hard about how you solved it, reverse 
+      engineer your own approach
+  
+  - Simplify and generalize
+    - Modify the example to a simpler version and try to map its solution 
+      to the originial problem
+  
+  - Base case and build
+    - Useful for recursive solutions
+  
+  - Data structure brain storm
+    - Run through a list of data structures and mentally try to evaluate
+      if each is usable for the given use case
+  
+-------------------------------------------------------------------------------
+
+BEST CONCEIVEABLE RUNTIME
+  - Imagine a current algorithm of O(N**2) and a BCR target algorithm of O(N) or
+    O(NlogN). Getting the target BCR might mean reducing the second O(N) in the 
+    equation to O(1) or O(N). This is one way that BCR can be useful. We can 
+    use the  runtimes to get a hint for what we want to reduce
+
+
+-------------------------------------------------------------------------------
+FOR EACH QUESTION, first try applying the above methods. THey should work in 
+pointing at the solution to the problem. Otherwise, go through the methods in 
+detail as the book provides for, perhaps there is a tad bit of technique you 
+may be missing out in your thought process.
+
+
+
+
+
+
+
+
+
+
+----
+*Copy over all the relevant questions from alg mastery to this repo when done
